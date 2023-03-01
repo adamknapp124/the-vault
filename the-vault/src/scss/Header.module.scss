@@ -1,0 +1,45 @@
+.navbar {
+	background-color: rgb(28, 101, 169);
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	.flexContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.logo {
+			font-size: 32px;
+			color: white;
+			font-weight: 700;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+			width: 300px;
+		}
+		.links {
+			padding: 20px;
+			display: flex;
+			box-sizing: border-box;
+			width: 100%;
+			justify-content: space-between;
+			.leftSide {
+				color: white;
+				font-weight: 700;
+				gap: 30px;
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+			}
+			.rightSide {
+				color: white;
+				font-weight: 700;
+				gap: 30px;
+				box-sizing: border-box;
+				display: flex;
+			}
+		}
+	}
+}
